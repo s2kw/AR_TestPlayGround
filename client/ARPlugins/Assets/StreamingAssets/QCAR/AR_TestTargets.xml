@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget size="600.000000 600.000000" name="singleImage"/>
+        <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Left"/>
+        <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Right"/>
+        <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Top"/>
+        <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Bottom"/>
+        <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Front"/>
+        <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Back"/>
+        <MultiTarget name="AR_TestCube">
+            <Part rotation="AD: 0 1 0 -90" translation="-300.0 0 0" name="AR_TestCube.Left"/>
+            <Part rotation="AD: 0 1 0 90" translation="300.0 0 0" name="AR_TestCube.Right"/>
+            <Part rotation="AD: 1 0 0 0" translation="0 0 300.0" name="AR_TestCube.Front"/>
+            <Part rotation="AD: 0 1 0 180" translation="0 0 -300.0" name="AR_TestCube.Back"/>
+            <Part rotation="AD: 1 0 0 -90" translation="0 300.0 0" name="AR_TestCube.Top"/>
+            <Part rotation="AD: 1 0 0 90" translation="0 -300.0 0" name="AR_TestCube.Bottom"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
