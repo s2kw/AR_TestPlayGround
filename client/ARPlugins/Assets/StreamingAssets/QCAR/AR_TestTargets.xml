@@ -2,6 +2,7 @@
 <QCARConfig>
     <Tracking>
         <ImageTarget size="600.000000 600.000000" name="singleImage"/>
+        <ImageTarget size="1024.000000 766.000000" name="Takatenjin"/>
         <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Left"/>
         <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Right"/>
         <ImageTarget size="600.000000 600.000000" name="AR_TestCube.Top"/>
